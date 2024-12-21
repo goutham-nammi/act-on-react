@@ -11,7 +11,7 @@ console.log('inputName: ' + inputName +'intputvalue: '+inputValue);
   setInputData((prevInputData) => {
     const copyPrevInputData = {... prevInputData}
     copyPrevInputData[inputName] = inputValue;
-
+//Added comment here
     return copyPrevInputData;
   });
 }
